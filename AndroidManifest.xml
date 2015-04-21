@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rint.topl"
+    android:versionCode="7"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="22" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.application.utils.ApplicationLoader"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.application.ui.activity.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.application.ui.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.application.ui.activity.MotherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.application.ui.activity.CustomGalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.application.ui.activity.ImagePickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.application.ui.activity.SelectLogoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.application.ui.activity.ProcessWaterMarkActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.application.utils.ApplicationDB"
+            android:authorities="com.digitattva.topl.ApplicationDB"
+            android:exported="false" />
+    </application>
+
+</manifest>

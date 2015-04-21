@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TOPL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- date formatters -->
+    <string name="formatterMonth">MMM dd</string>
+    <string name="formatterYear">dd.MM.yy</string>
+    <string name="formatterYearMax">dd.MM.yyyy</string>
+    <string name="chatDate">MMMM d</string>
+    <string name="chatFullDate">MMMM d, yyyy</string>
+    <string name="formatterWeek">EEE</string>
+    <string name="formatterDay24H">HH:mm</string>
+    <string name="formatterDay12H">h:mm a</string>
+    <string name="formatDateAtTime">%1$s at %2$s</string>
+    <string name="LastSeen">last seen</string>
+    <string name="LastSeenDate">last seen</string>
+    <string name="TodayAt">today at</string>
+    <string name="YesterdayAt">yesterday at</string>
+    <string name="Yesterday">yesterday</string>
+    <string name="LanguageName">English</string>
+    <string name="LanguageNameInEnglish">English</string>
+    <string name="LanguageCode">en</string>
+    
+    <!-- dialog -->
+    <string name="dialog_exit_title">TOPL</string>
+    <string name="dialog_exit_message">Are you sure want to exit?</string>
+    <string name="dialog_exit_positive_btn">Yes</string>
+    <string name="dialog_exit_negative_btn">No</string>
+    
+    <string name="no_internet_connection">Please check your internet connection!</string>
+    <string name="add_photo_to_watermark">ADD PHOTOS TO WATERMARK</string>
+</resources>

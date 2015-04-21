@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <item name="TAG_IS_ADD" type="id"/>
+        <item name="TAG_PATH" type="id"/>
+        <item name="TAG_CAPTION" type="id"/>
+        <item name="TAG_POSITION" type="id"/>
+</resources>
